@@ -1,0 +1,26 @@
+*{
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: walsheim;
+	src: url(GTWalsheimPro-Light.ttf);
+}
+nav {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding:20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav a {
+	font-family: walsheim;
+	padding: 10px;
+}
+
+a {
+	text-decoration: none;
+}
