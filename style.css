@@ -6,6 +6,7 @@
 	font-family: walsheim;
 	src: url(GTWalsheimPro-Light.ttf);
 }
+
 nav {
 	position: fixed;
 	width: 100%;
@@ -19,8 +20,33 @@ nav {
 nav a {
 	font-family: walsheim;
 	padding: 10px;
+	font-size: 10 rem;
 }
 
-a {
+nav .logo {
+	font-family: walsheim;
+}
+
+.navLinks a { 
 	text-decoration: none;
+}
+
+.navLinks a:hover { 
+	border-bottom: 4px;
+}
+
+header {
+	background-image: url('francesco-ungaro-Vjiuta12kBY-unsplash.jpg');
+	background-size: cover;
+	height: 1000px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+header .intro h1 {
+	font-family: walsheim;
+}
+
+header .intro {
+	padding-top: 400px;
 }
