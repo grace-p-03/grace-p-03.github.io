@@ -1,5 +1,9 @@
-*{
+* {
 	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
 }
 
 @font-face {
@@ -19,27 +23,28 @@ nav {
 	padding:20px;
 	display: flex;
 	justify-content: space-between;
-	background-color: #c7f4f8;
+	background-color: #fef5ec;
+	font-size: 1.5rem;
 }
  
 nav a {
 	padding: 10px;
-	font-size: 10 rem;
-	color: #002d4d;
+	font-size: 1.5rem;
+	color: #002d5d;
 }
 
+.logo {
+	color: #002d5d;
+}
 
 .navLinks a { 
 	text-decoration: none;
 }
 
 .navLinks a:hover { 
-	color: #7f52a0;
+	color: #2eccd3;
 }
 
-.navLinks a:visited {
-	color: ;
-}
 
 header {
 	background-image: url('francesco-ungaro-Vjiuta12kBY-unsplash.jpg');
@@ -59,15 +64,16 @@ header {
 
 header .intro h1 {
 	text-align: center;
-	font-weight: bold;
+	font-weight: 900;
 	margin: 0 auto;
-	width: 100px;
+	font-size: 3rem;
 }
 
 header .intro {
 	text-align: center;
 	width: 50%;
-	padding-top: 400px;
+	padding-top: 350px;
+	font-size: 2rem;
 }
 
 @media only screen and (max-width: 800px) {
@@ -77,15 +83,27 @@ header .intro {
 	}
 }
 
+.profileImage h2 {
+	font-size: 2rem;
+}
+
 main {
 	display: flex;
-	justify-content: center;
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
+@media only screen and (max-width: 800px) {
+	main {
+	    display: flex;
+		flex-wrap: wrap;
+		
+	}
+}
+
 .projectsIntro {
-	display: block;
+	padding: 0px 20px;
+	font-size: 1.5rem;
 }
 
 .projectOne {
