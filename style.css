@@ -63,7 +63,6 @@ header {
 }
 
 header .intro h1 {
-	text-align: center;
 	font-weight: 900;
 	margin: 0 auto;
 	font-size: 3rem;
@@ -85,39 +84,41 @@ header .intro {
 
 .about {
 	display: flex;
-	padding: 60px;
+	padding: 80px 140px;
+	background-color: #f69f81;
 }
 
 .profileImage h2 {
 	font-size: 3rem;
+	margin: 0;
+	padding-bottom: 20px;
 	
 }
 
 .profileImage img {
-	width: 300px;
+	width: 290px;
 }
 
 section p {
 	font-size: 2rem;
-	padding: 80px 0px 80px 80px;
+	padding: 120px 0px 80px 80px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
 	.about { 
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 	section p {
-		text-align: center;
+		font-size: 1.8rem;
+		padding: 20px;
 	}
 }
 
 main {
 	display: flex;
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-bottom: 20px;
+	padding: 0px 140px ;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -131,15 +132,22 @@ main {
 }
 
 .projectsIntro {
-	padding: 0px 50px;
+	padding: 0px 140px;
+	margin: 0;
 	font-size: 2rem;
+}
+
+.projectsIntro h2 {
+	margin: 0;
+	padding: 40px 0px 0px 0px;
 }
 
 .projectBox {
 	flex-grow: 1;
 	background-color: #D3D3D3;
 	height: 500px;
-	margin: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .contact {
