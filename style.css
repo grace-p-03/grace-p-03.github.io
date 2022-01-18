@@ -91,13 +91,16 @@ main {
 	display: flex;
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-bottom: 20px;
 }
 
 @media only screen and (max-width: 800px) {
 	main {
 	    display: flex;
-		flex-wrap: wrap;
-		
+		flex-wrap: wrap;	
+	}
+	.projectBox {
+		width: 100%;
 	}
 }
 
@@ -106,24 +109,9 @@ main {
 	font-size: 1.5rem;
 }
 
-.projectOne {
+.projectBox {
+	flex-grow: 1;
 	background-color: #D3D3D3;
-	flex-grow: 1;
-	height: 600px;
-	margin: 10px;
-}
-
-.projectTwo {
-	background-color: #2eccd5;
-	flex-grow: 1;
-	height: 600px;
-	margin: 10px;
-	
-}
-
-.projectThree {
-	background-color: #7f52a0;
-	flex-grow: 1;
 	height: 600px;
 	margin: 10px;
 }
