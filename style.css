@@ -33,7 +33,6 @@ nav a {
 }
 
 
-
 .navLinks a:hover { 
 	color: #2eccd3;
 }
@@ -69,13 +68,6 @@ header .intro {
 	width: 50%;
 	padding-top: 350px;
 	font-size: 2rem;
-}
-
-@media only screen and (max-width: 800px) {
-	header .intro {
-		padding-top: 250px;
-		
-	}
 }
 
 .about {
@@ -145,59 +137,21 @@ h4 {
 }
 
 
-
-@media only screen and (max-width: 1000px) {
-		nav, nav a {
-		font-size: 1.5rem;	
-		}	
-	.about { 
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-	section p {
-		font-size: 1.8rem;
-		padding: 20px;
-	}
-	main {
-	    display: flex;
-		flex-wrap: wrap;	
-	}
-	.projectBox {
-		width: 100%;
-		height: 200px;
-	}
-}
-
-@media only screen and (max-width: 500px) {
-	
-	.about { 
-		padding: 40px 20px;
-	}
-	
-}
-
-@media only screen and (max-width: 400px) {
-	
-	nav, nav a {
-	font-size: 1.3rem;	
-	}	
-}
-
 @media only screen and (max-width: 320px) {
+	
 	nav {
 		padding: 20px 10px;
 	}
 	
 	nav, nav a {
-	font-size: 1.2rem;	
+		font-size: 1.2rem;	
 	}	
 	
 	.about { 
 		padding: 40px 10px;
 	}
 	
-		section p {
+	section p {
 		font-size: 1.8rem;
 		padding: 5px;
 	}
@@ -212,3 +166,78 @@ h4 {
 		height: 200px;
 	}
 }
+
+
+@media only screen and (max-width: 400px) {
+	
+	nav, nav a {
+		font-size: 1.3rem;	
+	}	
+}
+
+
+@media only screen and (max-width: 500px) {
+	
+	.about { 
+		padding: 40px 20px;
+	}	
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+	
+	nav, nav a {
+		font-size: 1.5rem;	
+	}	
+	
+	header {
+		height: 600px;
+		display: flex;
+		justify-content: center;	
+	}
+	
+	header .intro {
+		padding-top: 230px;
+		padding-right: 0px;
+
+	}
+		
+	.about { 
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	section p {
+		font-size: 1.8rem;
+		padding: 20px;
+	}
+	
+	main {
+	    display: flex;
+		flex-wrap: wrap;	
+	}
+	
+	.projectBox {
+		width: 100%;
+		height: 200px;
+	}
+}
+
+
+/* @media only screen and (max-width: 800px) {
+	
+	header .intro {
+		padding-top: 250px;
+		padding-right: 50px;
+
+	}
+	
+}
+
+*/
+
+
+
+
