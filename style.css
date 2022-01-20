@@ -163,11 +163,11 @@ main {
 .contact {
 	width: 100%;
 	height: 300px;
-	background-color: #D3D3D3;
+	background-color: #c7f4f8;
 }
 
 .contact h2 {
-	padding: 60px 140px;
+	padding: 60px 140px 0px 140px;
 	margin: 0;
 	font-size: 3rem;
 }
@@ -188,9 +188,16 @@ main {
 	color: #2eccd3;
 }
 
+.contact p {
+	font-size: 2rem;
+	padding: 20px 140px 30px 140px;
+	margin: 0;
+	
+}
+
 footer {
 	width: 100%;
-	height: 40px;
+	height: 50px;
 	background-color: #fef5ec;
 	
 }
@@ -230,8 +237,45 @@ footer p {
 		flex-wrap: wrap;	
 	}
 	
+	.contact p {
+		padding: 20px 100px 30px 100px;
+		
+	}
+	
+	.contactLinks {
+		padding: 0px 60px;
+	}
+	
+	
+	.contactLinks a {
+		margin: 10px;
+	}
+	
+	footer {
+		height: 90px;
+	}
+	
+	footer p {
+		padding: 40px 140px;
+	}
+	
 }
 
+@media only screen and (max-width: 500px) {
+	
+	.about { 
+		padding: 40px 20px;
+	}	
+}
+
+
+@media only screen and (max-width: 400px) {
+	
+	nav, nav a {
+		font-size: 1.3rem;	
+	}	
+	
+}
 
 
 @media only screen and (max-width: 1000px) {
@@ -269,6 +313,7 @@ footer p {
 	section p {
 		font-size: 1.8rem;
 		padding: 20px;
+		text-align: center;
 	}
 	
 	main {
@@ -282,6 +327,24 @@ footer p {
 		margin: 20px;
 	}
 	
+	.contact h2 {
+		padding: 60px 140px 0px 140px;
+		text-align: center;
+	}
+	
+	.contact p {
+		text-align: center;
+	}
+	
+	.contactLinks a {
+		font-size: 3rem;
+	}
+	
+	.contactLinks {
+		text-align: center;
+	
+	}
+	
 	footer p {
 		text-align: center;
 	}
@@ -289,57 +352,7 @@ footer p {
 }
 
 
-@media only screen and (max-width: 500px) {
-	
-	.about { 
-		padding: 40px 20px;
-	}	
-}
 
-
-@media only screen and (max-width: 400px) {
-	
-	nav, nav a {
-		font-size: 1.3rem;	
-	}	
-	
-}
-
-
-@media only screen and (max-width: 375px) {
-	
-	nav {
-		padding: 20px 20px;
-	}
-	
-	nav, nav a {
-		font-size: 1.2rem;	
-	}	
-	
-	.about { 
-		padding: 40px 10px;
-	}
-	
-	.profileImage {
-		text-align: center;
-	}
-	
-	.projectsIntro {
-		padding: 40px;
-		
-	}
-	
-	section p {
-		font-size: 1.8rem;
-		padding: 5px;
-	}
-	
-	main {
-	    display: flex;
-		flex-wrap: wrap;	
-	}
-	
-}
 
 
 
