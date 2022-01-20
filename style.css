@@ -33,7 +33,6 @@ nav {
  
 nav a {
 	padding: 10px;
-	font-size: 2rem;
 	color: #002d5d;
 	text-decoration: none;
 }
@@ -54,7 +53,7 @@ header {
 	background-size: cover;
 	height: 800px;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 }
 
 
@@ -66,7 +65,6 @@ header .intro h1 {
 
 header .intro {
 	text-align: center;
-	width: 50%;
 	padding-top: 350px;
 	font-size: 2rem;
 }
@@ -102,7 +100,6 @@ main {
 
 .projectsIntro {
 	padding: 20px 140px;
-	margin: 0;
 	background-color: #fef5ec;
 }
 
@@ -120,7 +117,6 @@ main {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	align-items: center;
 	padding: 10px 30px 30px 30px;
 }
 
@@ -172,7 +168,6 @@ main {
 
 .contactLinks a {
 	margin-right: 30px;
-	text-decoration: none;
 	font-size: 4rem;
 	color: #7f52a0;
 }
@@ -323,11 +318,10 @@ footer p {
 	}
 	
 	header .intro {
-		padding-top: 230px;
-		padding-right: 0px;
-
-	}
+		padding: 230px 60px;
 		
+	}
+			
 	.about { 
 		display: flex;
 		flex-direction: column;
