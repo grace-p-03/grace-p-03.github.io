@@ -234,7 +234,8 @@ footer p {
 	
 	main {
 	    display: flex;
-		flex-wrap: wrap;	
+		flex-wrap: wrap;
+		padding: 0px 15px 50px 15px;	
 	}
 	
 	.contact p {
@@ -306,6 +307,11 @@ footer p {
 		text-align: center;
 	}
 	
+	.projectsIntro {
+		padding-bottom: 0;
+		
+	}
+	
 	.projectsIntro h2 {
 		text-align: center;
 	}
@@ -318,8 +324,7 @@ footer p {
 	
 	main {
 	    display: flex;
-		flex-wrap: wrap;
-		padding: 20px;	
+		flex-wrap: wrap;	
 	}
 	
 	.projectBox {
@@ -338,6 +343,7 @@ footer p {
 	
 	.contactLinks a {
 		font-size: 3rem;
+		margin: 10px;
 	}
 	
 	.contactLinks {
