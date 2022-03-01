@@ -1,3 +1,5 @@
+$navy-color: #002d5d;
+
 * {
 	box-sizing: border-box;
 }
@@ -10,13 +12,13 @@ html {
 
 
 @font-face {
-	font-family: walsheim;
+	font-family: walsheim sans-serif;
 	src: url(GTWalsheimPro-Light.ttf);
 }
 
 
 body {
-	font-family: walsheim;
+	font-family: walsheim sans-serif;
 }
 
 
@@ -33,7 +35,7 @@ nav {
  
 nav a {
 	padding: 10px;
-	color: #002d5d;
+	color: $navy-color;
 	text-decoration: none;
 }
 
@@ -44,7 +46,7 @@ nav a {
 
 
 .logo {
-	color: #002d5d;
+	color: $navy-color;
 }
 
 
@@ -140,7 +142,7 @@ main {
 .projectLinks a {
 	margin-right: 20px;
 	text-decoration: none;
-	color: #002d5d;
+	color: $navy-color;
 	font-size: 1.4rem;
 }
 
@@ -161,17 +163,16 @@ main {
 
 .contactLinks {
 	padding: 0px 140px;
+
+	a {
+		margin-right: 30px;
+		font-size: 4rem;
+		color: #7f52a0;
+		&:hover {
+			color: #2eccd3;
+		}
+	}
 	
-}
-
-.contactLinks a {
-	margin-right: 30px;
-	font-size: 4rem;
-	color: #7f52a0;
-}
-
-.contactLinks a:hover {
-	color: #2eccd3;
 }
 
 .contact p {
@@ -190,7 +191,7 @@ footer {
 footer p {
 	padding: 20px 140px;
 	margin: 0;
-	color: #002d5d;
+	color: $navy-color;
 }
 
 
