@@ -73,24 +73,25 @@ header .intro {
 
 .about {
 	display: flex;
+	justify-content: flex-start;
 	padding: 80px 140px;
 	background-color: #f69f81;
 }
 
-.profileImage h2 {
-	font-size: 3rem;
-	margin: 0;
-	padding-bottom: 20px;
-	
-}
-
-.profileImage img {
+img {
 	width: 400px;
 }
 
-section p {
-	font-size: 2rem;
-	padding: 120px 0px 80px 80px;
+.aboutText {
+	padding: 120px 60px 80px 80px;
+		h2 {
+			font-size: 3rem;
+			margin: 0;
+		//padding-bottom: 20px;
+			}
+			p {
+			font-size: 2rem;
+			}
 }
 
 main {
@@ -209,7 +210,7 @@ footer p {
 	}	
 	
 	.about { 
-		padding: 40px 10px;
+		padding: 20px 10px;
 	}
 	
 	section p {
@@ -220,7 +221,7 @@ footer p {
 	main {
 	    display: flex;
 		flex-wrap: wrap;
-		padding: 0px 15px 50px 15px;	
+		padding: 0px 5px 50px 5px;
 	}
 	
 	.contact p {
@@ -238,11 +239,11 @@ footer p {
 	}
 	
 	footer {
-		height: 90px;
+		height: 60px;
 	}
 	
 	footer p {
-		padding: 40px 140px;
+		padding: 20px 60px;
 	}
 	
 }
@@ -255,7 +256,7 @@ footer p {
 	}	
 	
 	main {
-		padding: 0px 15px 50px 15px;	
+		//padding: 0px 15px 50px 15px;
 }
 
 	.contactLinks {
@@ -276,7 +277,7 @@ footer p {
 	}	
 	
 	main {
-		padding: 0px 15px 30px 15px;	
+		//padding: 0px 15px 30px 15px;
 	}
 	
 	.contactLinks {
@@ -325,10 +326,18 @@ footer p {
 		text-align: center;
 	}
 	
-	section p {
-		font-size: 1.8rem;
-		padding: 20px;
-		text-align: center;
+	.aboutText {
+
+		padding: 80px 60px 40px 60px;
+
+		h2 {
+			text-align: center;
+		}
+			p {
+			font-size: 2rem;
+			padding: 10px;
+			text-align: center;
+		}
 	}
 	
 	main {
@@ -364,6 +373,7 @@ footer p {
 	
 	footer p {
 		text-align: center;
+		margin: 0 auto;
 	}
 	
 }

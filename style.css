@@ -61,23 +61,24 @@ header .intro {
 
 .about {
   display: flex;
+  justify-content: flex-start;
   padding: 80px 140px;
   background-color: #f69f81;
 }
 
-.profileImage h2 {
+img {
+  width: 400px;
+}
+
+.aboutText {
+  padding: 120px 60px 80px 80px;
+}
+.aboutText h2 {
   font-size: 3rem;
   margin: 0;
-  padding-bottom: 20px;
 }
-
-.profileImage img {
-  width: 300px;
-}
-
-section p {
+.aboutText p {
   font-size: 2rem;
-  padding: 120px 0px 80px 80px;
 }
 
 main {
@@ -168,6 +169,8 @@ main {
 footer {
   height: 50px;
   background-color: #fef5ec;
+  display: flex;
+  justify-content: space-between;
 }
 
 footer p {
@@ -186,7 +189,7 @@ footer p {
   }
 
   .about {
-    padding: 40px 10px;
+    padding: 20px 10px;
   }
 
   section p {
@@ -197,7 +200,7 @@ footer p {
   main {
     display: flex;
     flex-wrap: wrap;
-    padding: 0px 15px 50px 15px;
+    padding: 0px 5px 50px 5px;
   }
 
   .contact p {
@@ -213,20 +216,16 @@ footer p {
   }
 
   footer {
-    height: 90px;
+    height: 60px;
   }
 
   footer p {
-    padding: 40px 140px;
+    padding: 20px 60px;
   }
 }
 @media only screen and (max-width: 500px) {
   .about {
     padding: 40px 20px;
-  }
-
-  main {
-    padding: 0px 15px 50px 15px;
   }
 
   .contactLinks {
@@ -240,10 +239,6 @@ footer p {
 @media only screen and (max-width: 400px) {
   nav, nav a {
     font-size: 1.3rem;
-  }
-
-  main {
-    padding: 0px 15px 30px 15px;
   }
 
   .contactLinks {
@@ -285,9 +280,15 @@ footer p {
     text-align: center;
   }
 
-  section p {
-    font-size: 1.8rem;
-    padding: 20px;
+  .aboutText {
+    padding: 80px 60px 40px 60px;
+  }
+  .aboutText h2 {
+    text-align: center;
+  }
+  .aboutText p {
+    font-size: 2rem;
+    padding: 10px;
     text-align: center;
   }
 
@@ -322,6 +323,7 @@ footer p {
 
   footer p {
     text-align: center;
+    margin: 0 auto;
   }
 }
 
