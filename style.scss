@@ -85,7 +85,7 @@ header .intro {
 }
 
 .profileImage img {
-	width: 300px;
+	width: 400px;
 }
 
 section p {
@@ -185,6 +185,8 @@ main {
 footer {
 	height: 50px;
 	background-color: #fef5ec;
+	display: flex;
+	justify-content: space-between;
 	
 }
 
