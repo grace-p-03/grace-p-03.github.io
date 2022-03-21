@@ -11,11 +11,8 @@ html {
   font-family: walsheim sans-serif;
   src: url(GTWalsheimPro-Light.ttf);
 }
-body {
-  font-family: walsheim sans-serif;
-}
-
 nav {
+  font-family: walsheim sans-serif;
   position: fixed;
   width: 100%;
   padding: 20px;
@@ -47,16 +44,18 @@ header {
   justify-content: center;
   align-items: center;
 }
-
+header .intro {
+  font-size: 2rem;
+  text-align: center;
+}
 header .intro h1 {
+  font-family: walsheim sans-serif;
   font-weight: 900;
   margin: 0 auto;
   font-size: 5rem;
 }
-
-header .intro {
-  font-size: 2rem;
-  text-align: center;
+header .intro p {
+  font-family: "Space Mono", monospace;
 }
 
 .about {
@@ -74,10 +73,12 @@ img {
   padding: 120px 60px 80px 80px;
 }
 .aboutText h2 {
+  font-family: walsheim sans-serif;
   font-size: 3rem;
   margin: 0;
 }
 .aboutText p {
+  font-family: "Space Mono", monospace;
   font-size: 2rem;
 }
 
@@ -91,8 +92,8 @@ main {
   padding: 20px 140px;
   background-color: #fef5ec;
 }
-
 .projectsIntro h2 {
+  font-family: walsheim sans-serif;
   margin: 0;
   padding: 40px 0px 0px 0px;
   font-size: 3rem;
@@ -108,18 +109,17 @@ main {
   justify-content: center;
   padding: 10px 30px 30px 30px;
 }
-
 .projectBox h3 {
+  font-family: walsheim sans-serif;
   width: 100%;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
-
 .projectBox img {
   width: 80%;
 }
-
 .projectBox p {
+  font-family: "Space Mono", monospace;
   font-size: 1.8rem;
   text-align: center;
   padding: 20px;
@@ -127,6 +127,7 @@ main {
 }
 
 .projectLinks a {
+  font-family: "Space Mono", monospace;
   margin-right: 20px;
   text-decoration: none;
   color: #002d5d;
@@ -141,8 +142,8 @@ main {
   height: 300px;
   background-color: #c7f4f8;
 }
-
 .contact h2 {
+  font-family: walsheim sans-serif;
   padding: 60px 140px 0px 140px;
   margin: 0;
   font-size: 3rem;
@@ -161,6 +162,7 @@ main {
 }
 
 .contact p {
+  font-family: "Space Mono", monospace;
   font-size: 2rem;
   padding: 20px 140px 30px 140px;
   margin: 0;
@@ -172,8 +174,9 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-
 footer p {
+  font-family: "Space Mono", monospace;
+  font-size: 1.2rem;
   padding: 20px 140px;
   margin: 0;
   color: #002d5d;
