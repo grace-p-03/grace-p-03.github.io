@@ -120,10 +120,9 @@ main {
 }
 .projectBox p {
   font-family: "Space Mono", monospace;
-  font-size: 1.8rem;
   text-align: center;
-  padding: 20px;
-  margin: 0;
+  font-size: 1.6rem;
+  padding: 10px;
 }
 
 .projectLinks a {
@@ -133,9 +132,19 @@ main {
   color: #002d5d;
   font-size: 1.4rem;
 }
-
-.projectLinks a:hover {
+.projectLinks:hover {
   color: #2eccd3;
+}
+
+.techStack {
+  border-style: solid;
+  border-color: #002d5d;
+  padding: 0;
+  width: fit-content;
+  margin: auto;
+}
+.techStack p {
+  font-size: 2rem;
 }
 
 .contact {
@@ -144,13 +153,14 @@ main {
 }
 .contact h2 {
   font-family: walsheim sans-serif;
+  color: #002d5d;
   padding: 60px 140px 0px 140px;
   margin: 0;
   font-size: 3rem;
 }
 
 .contactLinks {
-  padding: 0px 140px;
+  padding: 0 140px;
 }
 .contactLinks a {
   margin-right: 30px;
@@ -163,6 +173,7 @@ main {
 
 .contact p {
   font-family: "Space Mono", monospace;
+  color: #002d5d;
   font-size: 2rem;
   padding: 20px 140px 30px 140px;
   margin: 0;

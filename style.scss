@@ -142,25 +142,44 @@ main {
 
 				p {
 					font-family: $body-font;
-					font-size: 1.8rem;
 					text-align: center;
-					padding: 20px;
-					margin: 0;
+					font-size: 1.6rem;
+					padding: 10px;
 				}
+
+}
+
+.projectLinks {
+
+	a {
+		font-family: $body-font;
+		margin-right: 20px;
+		text-decoration: none;
+		color: $navy-color;
+		font-size: 1.4rem;
+	}
+
+	&:hover {
+		color: #2eccd3;
+	}
 }
 
 
-.projectLinks a {
-	font-family: $body-font;
-	margin-right: 20px;
-	text-decoration: none;
-	color: $navy-color;
-	font-size: 1.4rem;
+.techStack {
+		border-style: solid;
+		border-color: $navy-color;
+		padding: 0;
+		width: fit-content;
+		margin: auto;
+
+	p {
+
+	font-size: 2rem;
+		
+	}
+
 }
 
-.projectLinks a:hover {
-	color: #2eccd3;
-}
 
 .contact {
 	height: 300px;
@@ -168,6 +187,7 @@ main {
 
 		h2 {
 			font-family: $display-font;
+			color: $navy-color;
 			padding: 60px 140px 0px 140px;
 			margin: 0;
 			font-size: 3rem;
@@ -176,7 +196,7 @@ main {
 
 
 .contactLinks {
-	padding: 0px 140px;
+	padding: 0 140px;
 
 	a {
 		margin-right: 30px;
@@ -191,6 +211,7 @@ main {
 
 .contact p {
 	font-family: $body-font;
+	color: $navy-color;
 	font-size: 2rem;
 	padding: 20px 140px 30px 140px;
 	margin: 0;
