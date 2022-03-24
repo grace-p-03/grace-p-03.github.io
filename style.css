@@ -141,6 +141,7 @@ main {
   border-color: #002d5d;
   padding: 0;
   width: fit-content;
+  margin: 0;
 }
 .techStack p {
   font-size: 2rem;
