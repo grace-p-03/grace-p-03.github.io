@@ -23,13 +23,20 @@ nav {
 }
 
 nav a {
-  padding: 10px;
+  margin-right: 15px;
   color: #002d5d;
   text-decoration: none;
 }
 
 .navLinks a:hover {
   color: #2eccd3;
+}
+
+.cv {
+  border-style: solid;
+  border-color: #002d5d;
+  border-radius: 2px;
+  padding: 5px 10px;
 }
 
 .logo {
@@ -53,9 +60,11 @@ header .intro h1 {
   font-weight: 900;
   margin: 0 auto;
   font-size: 5rem;
+  color: #002d5d;
 }
 header .intro p {
   font-family: "Space Mono", monospace;
+  color: #002d5d;
 }
 
 .about {
@@ -74,17 +83,23 @@ img {
 }
 .aboutText h2 {
   font-family: walsheim sans-serif;
+  color: #002d5d;
   font-size: 3rem;
   margin: 0;
 }
 .aboutText p {
   font-family: "Space Mono", monospace;
+  color: #002d5d;
   font-size: 2rem;
 }
 
 main {
   display: flex;
-  padding: 0px 120px 80px 120px;
+  flex-wrap: wrap;
+  padding: 40px 80px 80px;
+  row-gap: 80px;
+  column-gap: 30px;
+  justify-content: space-evenly;
   background-color: #fef5ec;
 }
 
@@ -94,16 +109,16 @@ main {
 }
 .projectsIntro h2 {
   font-family: walsheim sans-serif;
+  color: #002d5d;
   margin: 0;
-  padding: 40px 0px 0px 0px;
+  padding: 40px 0 0 0;
   font-size: 3rem;
 }
 
 .projectBox {
-  width: 33%;
+  width: 500px;
+  height: 600px;
   background-color: #c7f4f8;
-  margin-left: 20px;
-  margin-right: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -111,6 +126,7 @@ main {
 }
 .projectBox h3 {
   font-family: walsheim sans-serif;
+  color: #002d5d;
   width: 100%;
   text-align: center;
   font-size: 2.5rem;
@@ -122,7 +138,8 @@ main {
   font-family: "Space Mono", monospace;
   text-align: center;
   font-size: 1.6rem;
-  padding: 10px;
+  padding: 10px 0;
+  color: #002d5d;
 }
 
 .projectLinks a {
@@ -137,14 +154,15 @@ main {
 }
 
 .techStack {
-  border-style: solid;
-  border-color: #002d5d;
-  padding: 0;
-  width: fit-content;
-  margin: 0;
+  height: fit-content;
+  margin: 20px 0;
 }
 .techStack p {
   font-size: 2rem;
+  border-style: solid;
+  border-color: #002d5d;
+  border-radius: 2px;
+  margin: 0;
 }
 
 .contact {
@@ -199,7 +217,7 @@ footer p {
   }
 
   nav, nav a {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .about {
@@ -214,7 +232,6 @@ footer p {
   main {
     display: flex;
     flex-wrap: wrap;
-    padding: 0px 5px 50px 5px;
   }
 
   .contact p {
@@ -222,7 +239,7 @@ footer p {
   }
 
   .contactLinks {
-    padding: 0px 60px;
+    padding: 0 60px;
   }
 
   .contactLinks a {
@@ -230,14 +247,14 @@ footer p {
   }
 
   footer {
-    height: 60px;
-  }
-
-  footer p {
-    padding: 20px 60px;
+    height: 80px;
   }
 }
 @media only screen and (max-width: 500px) {
+  .cv {
+    display: none;
+  }
+
   .about {
     padding: 40px 20px;
   }
@@ -249,10 +266,19 @@ footer p {
   .contact p {
     padding: 20px 60px 40px 60px;
   }
+
+  footer p {
+    padding: 20px 60px;
+  }
 }
 @media only screen and (max-width: 400px) {
   nav, nav a {
     font-size: 1.3rem;
+  }
+
+  main {
+    row-gap: 40px;
+    padding: 30px 20px 80px 20px;
   }
 
   .contactLinks {
@@ -261,6 +287,10 @@ footer p {
 
   .contact p {
     padding: 20px 60px 40px 60px;
+  }
+
+  footer {
+    height: 120px;
   }
 }
 @media only screen and (max-width: 1000px) {
@@ -309,16 +339,15 @@ footer p {
   main {
     display: flex;
     flex-wrap: wrap;
-    padding: 0px 30px 30px 30px;
+    padding: 30px 20px 80px 20px;
   }
 
   .projectBox {
-    width: 100%;
     margin: 20px;
   }
 
   .contact h2 {
-    padding: 60px 140px 0px 140px;
+    padding: 60px 140px 0 140px;
     text-align: center;
   }
 
