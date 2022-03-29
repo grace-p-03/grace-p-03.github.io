@@ -132,7 +132,11 @@ main {
   font-size: 2.5rem;
 }
 .projectBox img {
-  width: 80%;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 .projectBox p {
   font-family: "Space Mono", monospace;
