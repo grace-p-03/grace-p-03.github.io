@@ -139,6 +139,7 @@ main {
 .projectBox {
 	width: 500px;
 	height: 600px;
+	border-radius: 3px;
 	background-color: #c7f4f8;
 	display: flex;
 	flex-wrap: wrap;
@@ -153,12 +154,24 @@ main {
 			 font-size: 2.5rem;
 		}
 
-				img {
-					background-size: cover;
-					width: 500px;
-					height: 500px;
-					background-position: 50% 50%;
-					background-repeat: no-repeat;
+				.projectImage {
+					position: relative;
+					width: 440px;
+					height: 280px;
+					overflow: hidden;
+					border-radius: 3px;
+
+
+					img {
+						position: absolute;
+						max-width: 100%;
+						width: 100%;
+						height: auto;
+						top: 50%;
+						left: 50%;
+						transform: translate( -50%, -50%);
+
+					}
 				}
 
 
@@ -283,6 +296,11 @@ footer {
 	main {
 	    display: flex;
 		flex-wrap: wrap;
+	}
+
+	.projectImage {
+		width: 330px;
+		height: 170px;
 	}
 	
 	.contact p {
