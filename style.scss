@@ -22,6 +22,7 @@ html {
 
 nav {
 	font-family: $display-font;
+	z-index: 99;
 	position: fixed;
 	width: 100%;
 	padding:20px;
@@ -41,15 +42,6 @@ nav a {
 
 .navLinks a:hover { 
 	color: #2eccd3;
-}
-
-
-.cv {
-	border-style: solid;
-	border-color: $navy-color;
-	border-width: 0.2rem;
-	border-radius: 2px;
-	padding: 5px 10px;
 }
 
 
