@@ -353,10 +353,7 @@ footer {
 
 	}
 
-	img {
-		width: 300px;
-		height: 300px;
-	}
+
 
 
 	.projectsIntro {
@@ -416,6 +413,16 @@ footer {
 	footer p {
 		padding: 20px 40px;
 		}
+}
+
+@media only screen and (max-width: 550px) {
+
+	img {
+		width: 300px;
+		height: 300px;
+	}
+
+
 }
 
 
@@ -498,33 +505,12 @@ footer {
 		margin: 20px;
 	}
 	
-	.contact h2 {
-		padding: 60px 140px 0 140px;
-		text-align: center;
-	}
-	
-	.contact p {
-		text-align: center;
-	}
-	
-	.contactLinks a {
-		font-size: 3rem;
-		margin: 10px;
-	}
-	
-	.contactLinks {
-		text-align: center;
-	
-	}
-	
-	footer p {
-		text-align: center;
-		margin: 0 auto;
-	}
+
+
 	
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
 
 
 	.projectsIntro {
@@ -534,6 +520,31 @@ footer {
 		}
 
 	}
+
+	.contact h2 {
+		padding: 60px 140px 0 140px;
+		text-align: center;
+	}
+
+	.contact p {
+		text-align: center;
+	}
+
+	.contactLinks a {
+		font-size: 3rem;
+		margin: 10px;
+	}
+
+	.contactLinks {
+		text-align: center;
+
+	}
+
+	footer p {
+		text-align: center;
+		margin: 0 auto;
+	}
+
 }
 
 
