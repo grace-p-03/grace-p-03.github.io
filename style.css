@@ -71,6 +71,7 @@ header .intro p {
 img {
   width: 400px;
   height: 400px;
+  margin: auto;
 }
 
 .aboutText {
@@ -99,7 +100,7 @@ main {
 }
 
 .projectsIntro {
-  padding: 20px 140px;
+  padding: 20px 160px;
   background-color: #fef5ec;
 }
 .projectsIntro h2 {
@@ -230,23 +231,33 @@ footer p {
     font-size: 1rem;
   }
 
+  .aboutText p {
+    font-size: 1.6rem;
+    padding: 10px;
+    text-align: center;
+  }
+
   .about {
     padding: 20px 10px;
   }
 
   section p {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     padding: 5px;
   }
 
   main {
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 60px;
   }
 
-  .projectImage {
-    width: 330px;
-    height: 170px;
+  p {
+    font-family: "Space Mono", monospace;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 10px 0;
+    color: #002d5d;
   }
 
   .contact p {
@@ -262,42 +273,57 @@ footer p {
   }
 
   footer {
-    height: 80px;
+    height: 100px;
   }
 }
 @media only screen and (max-width: 500px) {
-  .cv {
-    display: none;
-  }
-
   .about {
     padding: 40px 20px;
   }
+  .about .aboutText {
+    padding: 60px 20px 0 20px;
+  }
+  .about .aboutText p {
+    font-size: 1.6rem;
+  }
+
+  img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .projectsIntro {
+    padding: 20px 120px;
+  }
+
+  .projectBox {
+    width: 350px;
+    height: 540px;
+    padding: 5px 20px 20px 20px;
+  }
+  .projectBox h3 {
+    font-size: 2.2rem;
+  }
+  .projectBox .projectImage {
+    width: 340px;
+    height: 180px;
+  }
+  .projectBox .projectImage img {
+    position: absolute;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .techStack p {
+    font-size: 1.6rem;
+  }
 
   .contactLinks {
-    padding: 0px 20px;
-  }
-
-  .contact p {
-    padding: 20px 60px 40px 60px;
-  }
-
-  footer p {
-    padding: 20px 60px;
-  }
-}
-@media only screen and (max-width: 400px) {
-  nav, nav a {
-    font-size: 1.3rem;
-  }
-
-  main {
-    row-gap: 40px;
-    padding: 30px 20px 80px 20px;
-  }
-
-  .contactLinks {
-    padding: 0px 40px;
+    padding: 0 20px;
   }
 
   .contact p {
@@ -305,7 +331,28 @@ footer p {
   }
 
   footer {
-    height: 120px;
+    height: 40px;
+  }
+
+  footer p {
+    padding: 20px 40px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  nav, nav a {
+    font-size: 1.3rem;
+  }
+
+  .contactLinks {
+    padding: 0 40px;
+  }
+
+  .contact p {
+    padding: 20px 60px 40px 60px;
+  }
+
+  footer {
+    height: 100px;
   }
 }
 @media only screen and (max-width: 1000px) {
@@ -346,15 +393,13 @@ footer p {
     text-align: center;
   }
   .aboutText p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: 10px;
     text-align: center;
   }
 
   main {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 30px 20px 80px 20px;
+    row-gap: 40px;
   }
 
   .projectBox {
@@ -382,6 +427,11 @@ footer p {
   footer p {
     text-align: center;
     margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .projectsIntro h2 {
+    text-align: center;
   }
 }
 
